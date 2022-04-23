@@ -23,4 +23,3 @@ while True:
 cv2.destroyAllWindows()
 cap.release()
 #face_detect_demo(img)
-#cv_show('pic',img)
