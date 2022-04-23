@@ -13,7 +13,6 @@ def face_detect_demo(img):
     #cv2.imshow('pic',img)
     cv_show('123',img)
 #人脸识别
-img=cv2.imread('')
 cap = cv2.VideoCapture(0)
 while True:
     flag,frame = cap.read()
