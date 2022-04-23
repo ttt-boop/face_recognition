@@ -1,4 +1,9 @@
 import cv2
+def cv_show(name,img):
+    cv2.imshow(name,img)
+    cv2.waitKey(10)
+    cv2.destroyAllWindows()
+    #cv2.waitKey(0)
 def face_detect_demo(img):
     gary = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     face_detect = cv2.CascadeClassifier('opencv-4.5.5/data/haarcascades/haarcascade_frontalface_alt2.xml')
